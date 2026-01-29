@@ -1,0 +1,26 @@
+GitHub Repository Link
+======================
+
+⚠️ IMPORTANT: After uploading this project to GitHub, replace the placeholder below with your actual repository URL.
+
+Repository URL: https://github.com/YOUR_USERNAME/singlish-translator-tests
+
+Instructions to create GitHub repository:
+1. Go to https://github.com/new
+2. Create a new repository named "singlish-translator-tests"
+3. Make it PUBLIC (very important for marking)
+4. Initialize with README (optional, since we already have one)
+5. Copy the repository URL and paste it above
+
+To push this project to GitHub:
+```bash
+cd singlish-translator-tests
+git init
+git add .
+git commit -m "Initial commit - Singlish translator automated tests"
+git branch -M main
+git remote add origin YOUR_REPOSITORY_URL
+git push -u origin main
+```
+
+Make sure the repository is publicly accessible before submission!
