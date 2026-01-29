@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Singlish to Sinhala Translator - Positive Functional Tests', () => {
   
   test.beforeEach(async ({ page }) => {
-    await page.goto('/');
+    await page.goto('http://localhost:3000/');
     await page.waitForLoadState('networkidle');
   });
 
@@ -346,7 +346,7 @@ test.describe('Singlish to Sinhala Translator - Positive Functional Tests', () =
 test.describe('Singlish to Sinhala Translator - Negative Functional Tests', () => {
   
   test.beforeEach(async ({ page }) => {
-    await page.goto('/');
+    await page.goto('http://localhost:3000/');
     await page.waitForLoadState('networkidle');
   });
 
@@ -494,7 +494,7 @@ test.describe('Singlish to Sinhala Translator - Negative Functional Tests', () =
 test.describe('Singlish to Sinhala Translator - UI Tests', () => {
   
   test.beforeEach(async ({ page }) => {
-    await page.goto('/');
+    await page.goto('http://localhost:3000/');
     await page.waitForLoadState('networkidle');
   });
 
